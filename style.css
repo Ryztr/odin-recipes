@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-title {
+    color: aliceblue;
+    font-size: 45px;
+    
+}
+
+.header-container {
+
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    border: 3px solid whitesmoke;
+    background-color: darkorange;
+}
+
+/* The links */
+li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color:black;
+}
+
+ul {
+   list-style-type: none;
+   font-size: 21px;
+}
+
+.recipe-container{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    border: 3px solid whitesmoke;
+    background-color: darkorange;
+}
+/*  */
+
+.container-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
